@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/micromodal.css">
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/modals.js"></script>
+    <script type="text/javascript" src="scripts/moment.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <title>Caisse Enregistreuse du Foyer</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div id="menubutton" data="0" onclick="showMenu()">
+                <img src="menu.png">
+            </div>
+            <span>Caisse Enregistreuse</span>
+        </nav>
+        <div id="menu">
+            <div class="category" name="changeprod">
+                <div class="categoryspace"></div>
+                <img alt="Modifier produits" src="list.png">
+                <div class="categoryspace"></div>
+                <span class="categorytext">Modifier collations</span>
+            </div>
+            <div class="category" name="changepromo">
+                <div class="categoryspace"></div>
+                <img alt="Modifier promotions" src="sale.png">
+                <div class="categoryspace"></div>
+                <span class="categorytext">Modifier promotions</span>
+            </div>
+            <div class="category" name="export">
+                <div class="categoryspace"></div>
+                <img alt="Exporter sous Excel" src="export.png">
+                <div class="categoryspace"></div>
+                <span class="categorytext">Exporter sous Excel</span>
+            </div>
+            <div class="category" name="report">
+                <div class="categoryspace"></div>
+                <img style="color:white;width:36px" alt="Signaler un problème" src="feedback.png">
+                <div class="categoryspace"></div>
+                <span class="categorytext">Signaler un problème</span>
+            </div>
+            <div class="about">
+                <img width="64px" height="64px" src="./64x64.png">
+                <br>
+                <span><b>Cashreg v2.0 - Caisse Enregistreuse</b></span>
+                <br>
+                <span style="width:250px; text-align: center">© 2020 Rafael BITCA (rafaelbitca@hotmail.com), sous la <a href="https://opensource.org/licenses/MIT" target="_blank">licence MIT</a>. </span>
+                <br>
+                <span style="width:250px; text-align: center">Pour plus d'informations (comme les logiciels à source libre utilisés), regardez le fichier "README.md".</span>
+            </div>
+        </div>
+        <div id="register">
+            <div id="receipt">
+            </div>
+            <div id="totals">
+                <div class="sub">
+                    <div>
+                        <h1>Total:</h1>
+                        <input id="total" disabled type="text">
+                    </div>
+                    <div>
+                        <h3>Subtotal:</h3>
+                        <input id="subtotal" disabled type="text">
+                    </div>
+                </div>
+                <div id="sb" class="subbuttons">
+                    <div class="button" name="addmoney" id="addmoney">
+                        <span class="buttontext">Ajouter de l'argent</span>
+                    </div>
+                    <div class="button" name="sell" id="sell">
+                        <span class="buttontext">Enregistrer la vente</span>
+                    </div>
+                    <div class="button" name="clear" id="clear">
+                        <span class="buttontext">Effacer</span>
+                    </div>
+                </div>
+            </div>
+            <div id="inventory">
+                <div class="button" name="drinks">
+                    <span class="buttontext"><font style="font-size: 2em; font-weight: bold">Boissons</font></span>
+                </div>
+                <div class="button" name="food">
+                    <span class="buttontext"><font style="font-size: 2em; font-weight: bold">Nourriture</font></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

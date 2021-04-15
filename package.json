@@ -1,0 +1,20 @@
+{
+  "name": "cashreg",
+  "version": "2.0.0",
+  "description": "Cash register for the Rene Cassin High School's student lounge",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx electron ."
+  },
+  "author": "Rafael BITCA",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^12.0.4",
+    "electron-find": "^1.0.6",
+    "electron-packager": "^15.2.0",
+    "excel4node": "^1.7.2",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {}
+}

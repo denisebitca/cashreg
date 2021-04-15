@@ -1,0 +1,362 @@
+{
+  "all": {
+    "products": [
+      {
+        "id": 100,
+        "name": "Argent en plus du total",
+        "category": 0,
+        "price": 0,
+        "remaining": -5
+      },
+      {
+        "id": 2,
+        "name": "Tartelette Framboise BIO",
+        "category": 1,
+        "price": 0.3,
+        "stock": 17,
+        "remaining": 7
+      },
+      {
+        "id": 3,
+        "name": "Coqueline madeleine fraise",
+        "category": 1,
+        "price": 0.5,
+        "stock": 20,
+        "remaining": 19
+      },
+      {
+        "id": 4,
+        "name": "Moelleux fruits rouges",
+        "category": 1,
+        "price": 0.5,
+        "stock": 7,
+        "remaining": 2
+      },
+      {
+        "id": 5,
+        "name": "Gateaux sans gluten raisins",
+        "category": 1,
+        "price": 0.5,
+        "stock": 7,
+        "remaining": 4
+      },
+      {
+        "id": 6,
+        "name": "Cake aux fruits",
+        "category": 1,
+        "price": 0.5,
+        "stock": 25,
+        "remaining": 22
+      },
+      {
+        "id": 7,
+        "name": "Pain au chocolat",
+        "category": 1,
+        "price": 0.5,
+        "stock": 26,
+        "remaining": 24
+      },
+      {
+        "id": 8,
+        "name": "Coquelines madeleine chocolat",
+        "category": 1,
+        "price": 0.5,
+        "stock": 18,
+        "remaining": 4
+      },
+      {
+        "id": 9,
+        "name": "P'ti dej Belvita choco-miel",
+        "category": 1,
+        "price": 0.5,
+        "stock": 21,
+        "remaining": 18
+      },
+      {
+        "id": 10,
+        "name": "P'ti dej Belvita tout choco",
+        "category": 1,
+        "price": 0.5,
+        "stock": 9,
+        "remaining": 7
+      },
+      {
+        "id": 11,
+        "name": "P'ti dej Belvita choco-noisette",
+        "category": 1,
+        "price": 0.5,
+        "stock": 12,
+        "remaining": 12
+      },
+      {
+        "id": 12,
+        "name": "Petits ecoliers",
+        "category": 1,
+        "price": 0.5,
+        "stock": 18,
+        "remaining": 18
+      },
+      {
+        "id": 13,
+        "name": "Chips nature",
+        "category": 1,
+        "price": 0.7,
+        "stock": 21,
+        "remaining": 21
+      },
+      {
+        "id": 14,
+        "name": "Chips bolognaise",
+        "category": 1,
+        "price": 0.7,
+        "stock": 13,
+        "remaining": 13
+      },
+      {
+        "id": 15,
+        "name": "Chips poulet",
+        "category": 1,
+        "price": 0.7,
+        "stock": 5,
+        "remaining": 5
+      },
+      {
+        "id": 16,
+        "name": "Chips barbecue",
+        "category": 1,
+        "price": 0.7,
+        "stock": 4,
+        "remaining": 4
+      },
+      {
+        "id": 17,
+        "name": "Moelleux choco-pepites",
+        "category": 1,
+        "price": 0.7,
+        "stock": 20,
+        "remaining": 19
+      },
+      {
+        "id": 18,
+        "name": "Moelleux fourre choco-noisettes",
+        "category": 1,
+        "price": 0.7,
+        "stock": 39,
+        "remaining": 38
+      },
+      {
+        "id": 19,
+        "name": "Moelleux fourre fraise",
+        "category": 1,
+        "price": 0.7,
+        "stock": 5,
+        "remaining": 5
+      },
+      {
+        "id": 20,
+        "name": "Moelleux fruits rouges",
+        "category": 1,
+        "price": 0.7,
+        "stock": 2,
+        "remaining": 1
+      },
+      {
+        "id": 21,
+        "name": "Crepe Wahou Choco",
+        "category": 1,
+        "price": 0.7,
+        "stock": 17,
+        "remaining": 16
+      },
+      {
+        "id": 22,
+        "name": "Gaufre choco",
+        "category": 1,
+        "price": 0.7,
+        "stock": 38,
+        "remaining": 37
+      },
+      {
+        "id": 23,
+        "name": "Mini Belvita",
+        "category": 1,
+        "price": 0.7,
+        "stock": 28,
+        "remaining": 22,
+        "promotions": {
+          "quantity": 5,
+          "price": 0.24,
+          "id": 23
+        }
+      },
+      {
+        "id": 24,
+        "name": "Packet cereales Nestle",
+        "category": 1,
+        "price": 0.7,
+        "stock": 12,
+        "remaining": 12
+      },
+      {
+        "id": 25,
+        "name": "Barre cereales Frosties",
+        "category": 1,
+        "price": 0.5,
+        "stock": 20,
+        "remaining": 20
+      },
+      {
+        "id": 26,
+        "name": "Barre cereales Nesquik",
+        "category": 1,
+        "price": 0.5,
+        "stock": 13,
+        "remaining": 13
+      },
+      {
+        "id": 27,
+        "name": "Barre cereales Prince",
+        "category": 1,
+        "price": 0.5,
+        "stock": 23,
+        "remaining": 23
+      },
+      {
+        "id": 28,
+        "name": "Barre cereales Lion",
+        "category": 1,
+        "price": 0.5,
+        "stock": 22,
+        "remaining": 22
+      },
+      {
+        "id": 29,
+        "name": "Barre cereales M&Ms",
+        "category": 1,
+        "price": 0.5,
+        "stock": 33,
+        "remaining": 33
+      },
+      {
+        "id": 30,
+        "name": "Barre chocolat Milka",
+        "category": 1,
+        "price": 0.5,
+        "stock": 9,
+        "remaining": 9
+      },
+      {
+        "id": 31,
+        "name": "Barre cereales pomme",
+        "category": 1,
+        "price": 0.5,
+        "stock": 7,
+        "remaining": 7
+      },
+      {
+        "id": 32,
+        "name": "Barre cereales Grany",
+        "category": 1,
+        "price": 0.5,
+        "stock": 15,
+        "remaining": 15
+      },
+      {
+        "id": 33,
+        "name": "Barre cereales Chocapic",
+        "category": 1,
+        "price": 0.5,
+        "stock": 18,
+        "remaining": 18
+      },
+      {
+        "id": 34,
+        "name": "Caprisun orange",
+        "category": 0,
+        "price": 0.5,
+        "stock": 41,
+        "remaining": 37
+      },
+      {
+        "id": 35,
+        "name": "Caprisun multi-vitamine",
+        "category": 0,
+        "price": 0.5,
+        "stock": 21,
+        "remaining": 17
+      },
+      {
+        "id": 36,
+        "name": "Caprisun tropical",
+        "category": 0,
+        "price": 0.5,
+        "stock": 24,
+        "remaining": 20
+      },
+      {
+        "id": 37,
+        "name": "Candy up Fraise",
+        "category": 0,
+        "price": 0.7,
+        "stock": 15,
+        "remaining": 13
+      },
+      {
+        "id": 38,
+        "name": "Candy up Vanille",
+        "category": 0,
+        "price": 0.7,
+        "stock": 11,
+        "remaining": 8
+      },
+      {
+        "id": 39,
+        "name": "Candy up Choco",
+        "category": 0,
+        "price": 0.7,
+        "stock": 10,
+        "remaining": 6
+      },
+      {
+        "id": 39,
+        "name": "Ice tea peche",
+        "category": 0,
+        "price": 1,
+        "stock": 46,
+        "remaining": 42
+      },
+      {
+        "id": 40,
+        "name": "Oasis",
+        "category": 0,
+        "price": 1,
+        "stock": 2,
+        "remaining": 0
+      },
+      {
+        "id": 41,
+        "name": "Compote",
+        "category": 0,
+        "price": 0.5,
+        "stock": 33,
+        "remaining": 32
+      },
+      {
+        "id": 42,
+        "name": "Bouteille d'eau",
+        "category": 0,
+        "price": 0.5,
+        "stock": 100,
+        "remaining": 98
+      },
+      {
+        "id": 43,
+        "name": "The",
+        "category": 0,
+        "price": 0.3,
+        "stock": 50000,
+        "remaining": 49998
+      }
+    ]
+  }
+}
