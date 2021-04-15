@@ -29,4 +29,4 @@ Un fichier exemple de la "base de données" des produits se retrouve dans ./json
 
 Une notice d'emploi existe pour la version 1.01 de ce logiciel, mais elle doit être mise à jour. Si vous voulez la notice d'emploi, [envoyez-moi un mail](mailto:rafaelbitca@hotmail.com).
 ## Remerciments personnels :
-Merci au bureau de la maison des lycéens du lycée René Cassin, et merci à mes amis de la Fisti, avec qui j`ai passé 3 merveilleuses années !
+Merci au bureau de la maison des lycéens du lycée René Cassin (Arpajon, 91), et merci à mes amis de la Fisti, avec qui j`ai passé 3 merveilleuses années !
