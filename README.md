@@ -1,5 +1,6 @@
 # Cashreg v2.0
 ![](64x64.png)
+
 Crée en 2020 par Rafael BITCA (rafaelbitca@hotmail.com), sous la [license MIT](https://opensource.org/licenses/MIT).
 ## Logiciels libres et gratuits à code source ouverts utilisés :
 Node.js, jQuery v3.4.1 et Moment v2 - sous licence MIT - [http://openjsf.org](http://openjsf.org)
