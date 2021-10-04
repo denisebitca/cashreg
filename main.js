@@ -29,9 +29,9 @@ function createWindow () {
         mainWindow = null
     })
 
-    globalShortcut.register('CommandOrControl+F', () => {
+    /*globalShortcut.register('CommandOrControl+F', () => {
 		mainWindow.webContents.send('on-find');
-	});
+	});*/
 
     mainWindow.loadFile('index.html')
 }

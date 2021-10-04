@@ -42,11 +42,12 @@ class Serverside {
     }
     get_database_files(){
         let f = []
-        fs.readdirSync('./json').forEach(file=>{
+        fs.readdirSync('./json/sales').forEach(file=>{
             if (file !== 'database-products.json'){
-                f.push("./json/"+file)
+                f.push("./json/sales/"+file)
             }
         })
+        console.log(f);
         return f;
     }
     toExcel(dbpath){
@@ -317,8 +318,8 @@ checkDirectory("./json", ()=>{
     })
 })
 
-let findInPage = new FindInPage(remote.getCurrentWebContents());
+/*let findInPage = new FindInPage(remote.getCurrentWebContents());
 
 ipcRenderer.on('on-find', (e, args) => {
   findInPage.openFindWindow()
-})
+})*/

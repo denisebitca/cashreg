@@ -731,7 +731,7 @@ window.onload = ()=>{
                 break;
             case "export":
                 let db = customer.Product.server.get_database_files()
-                createModal("Exporter sous Excel", (()=>{let f = $("<div></div>"); let g = $("<p></p>").text("Veuillez selectionner le jour à exporter :"); let z = $($.parseHTML(db.toSelect((a)=>{return a.split("/")[2].replace(".json", "").replace("database-", "")}))); return f.append(g, z)[0].outerHTML})(), [{
+                createModal("Exporter sous Excel", (()=>{let f = $("<div></div>"); let g = $("<p></p>").text("Veuillez selectionner le jour à exporter :"); let z = $($.parseHTML(db.toSelect((a)=>{return a.split("/")[3].replace(".json", "").replace("database-", "")}))); return f.append(g, z)[0].outerHTML})(), [{
                     id: "cont", 
                     text:"Continuer", 
                     bgcolor: "#ef1111", 
